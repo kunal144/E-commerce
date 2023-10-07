@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# E-Commerce Website Project: Totality Corps
 
-## Getting Started
+# https://totalitycorp-frontend-challenge-kunal144.vercel.app/
 
-First, run the development server:
+## Introduction
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to my E-Commerce Website project! I have implemented a wide range of features and functionalities to ensure users have a smooth journey from product discovery to checkout.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features Implemented
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Product Listing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Our website boasts a diverse range of products, each presented with captivating images, detailed descriptions, and transparent pricing. Users can sort products by category, price range, or ratings, enhancing their shopping experience.
 
-## Learn More
+### Shopping Cart Management
 
-To learn more about Next.js, take a look at the following resources:
+I have designed an intuitive cart system where users can effortlessly add or remove items. Real-time updates provide users with accurate information about their cart's total cost and item count. Users can adjust quantities with ease, ensuring a hassle-free shopping experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Seamless Checkout Process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+My checkout process is designed for simplicity. Users can review their selected items, enter shipping information, and securely provide payment details. The system automatically calculates the total cost, providing users with a clear understanding of their purchase.
 
-## Deploy on Vercel
+### Responsive Design
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+I understand the importance of accessibility. My website is fully responsive, ensuring a consistent and enjoyable experience across various devices, be it a desktop, tablet, or smartphone.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Additional Challenges: User Authentication
+
+For enhanced user engagement, I incorporated user authentication functionalities. Users can register, log in, and enjoy a personalized experience with GOOGLE or DISCORD account. Their names and avatars are prominently displayed when logged in, creating a sense of community.
+
+## Technologies Used
+
+- **Frontend Framework:** NextJS
+- **UI Library:** Tailwind,Framer-motion (Selected for its modern and customizable components)
+- **Authentication Framework:** NextAuth
+- **Database:** PostgreSQL
+- **Database ORM:** Prisma
+- **Additional:** TypeScript (Utilized for type safety and enhanced developer experience)
+
+## Challenges and Solutions
+
+Throughout the development process, I encountered challenges such as real-time cart updates and ensuring a seamless user experience across devices. By leveraging Zustand state management and tailwind responsive design principles, I was able to overcome these hurdles effectively.
