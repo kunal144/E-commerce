@@ -10,7 +10,7 @@ Welcome to my E-Commerce Website project! I have implemented a wide range of fea
 
 ### Product Listing
 
-Our website boasts a diverse range of products, each presented with captivating images, detailed descriptions, and transparent pricing. Users can sort products by category, price range, or ratings, enhancing their shopping experience.
+My website boasts a diverse range of products, each presented with captivating images, detailed descriptions, and transparent pricing. Users can sort products by category, price range, or ratings, enhancing their shopping experience.
 
 ### Shopping Cart Management
 
