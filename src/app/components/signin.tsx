@@ -51,7 +51,7 @@ export function Signin({ onClick }: { onClick?: () => void }) {
           </label>
 
           <p>
-            Don't have an account?
+            Don&apos;t have an account?
             <span
               onClick={() => handleLogIn()}
               className="font-bold underline p-1 cursor-pointer "

@@ -129,12 +129,12 @@ export default function Home() {
             </li>
             <li>
               <button onClick={() => setSelectedCategory("men's clothing")}>
-                <a>Men's clothing</a>
+                <a>Men&apos;s clothing</a>
               </button>
             </li>
             <li>
               <button onClick={() => setSelectedCategory("women's clothing")}>
-                <a>Women's clothing</a>
+                <a>Women&apos;s clothing</a>
               </button>
             </li>
           </ul>

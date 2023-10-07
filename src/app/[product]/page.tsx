@@ -1,7 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import { products } from '../lib/productData'
-import { useAmp } from 'next/amp'
 import { useParams } from 'next/navigation'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -19,9 +18,9 @@ interface Product {
   quantity?: number
 }
 
-export default function page() {
-  const [filteredProduct, setFilteredProduct] = useState<Product[]>([])
-  const param = useParams()
+export default function Page() {
+  const [filteredProduct, SetFilteredProduct] = useState<Product[]>([])
+  const Param = useParams()
   const notify = () => toast.success('Added to cart')
 
   const { addToCart } = useCartStore()
@@ -34,10 +33,10 @@ export default function page() {
   useEffect(() => {
     let sorted = [...products]
 
-    sorted = sorted.filter((product) => String(product.id) === param?.product)
+    sorted = sorted.filter((product) => String(product.id) === Param?.product)
 
-    setFilteredProduct(sorted)
-  }, [])
+    SetFilteredProduct(sorted)
+  }, [Param?.product])
 
   return (
     <>

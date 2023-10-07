@@ -1,6 +1,6 @@
-export default function () {
+export default function Page() {
   return (
-    <div className="flex justify-center mx-16">
+    <div key={'payment'} className="flex justify-center mx-16">
       <div className="model ">
         <form className="form">
           <div className="payment--options">

@@ -32,7 +32,10 @@ export default function Cart() {
           <div className="bg-slate-200 h-full w-full flex-col  items-center rounded-md  justify-center">
             {cart.map((product) => {
               return (
-                <div className="mx-4 flex flex-grow flex-wrap m-2  h-48 max-md:h-80 rounded-md justify-around items-center bg-white right-">
+                <div
+                  key={product.id}
+                  className="mx-4 flex flex-grow flex-wrap m-2  h-48 max-md:h-80 rounded-md justify-around items-center bg-white right-"
+                >
                   <div className="w-24    bg-white">
                     <Image
                       className="object-cover"
