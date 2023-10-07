@@ -3,7 +3,7 @@
 type action = {
   onClick?: () => void
   className?: string
-  name?: string
+  name?: any
 }
 
 export default function OnServerButton({ onClick, className, name }: action) {

@@ -3,6 +3,7 @@ import OnServerButton from './onServerButton'
 import { useStore } from '@/store/store2'
 import { memo } from 'react'
 import { signIn } from 'next-auth/react'
+import { RxCrossCircled } from 'react-icons/rx'
 
 export function Signin({ onClick }: { onClick?: () => void }) {
   const login = useStore.getState().logIn
@@ -209,8 +210,12 @@ export function Signin({ onClick }: { onClick?: () => void }) {
           }}
           className="w-full h-screen  mt-6 max-sm:mt-12  rounded-xl absolute  glass"
         >
-          <div className="flex items-start justify-end">
-            <OnServerButton className="  p-2" name="X" onClick={onClick} />
+          <div className="flex  justify-end pr-2 text-3xl ">
+            <OnServerButton
+              className=" font-bold  "
+              name={<RxCrossCircled />}
+              onClick={onClick}
+            />
           </div>
           {login ? <LogIn /> : <SignUp />}
         </motion.div>
