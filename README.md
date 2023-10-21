@@ -1,4 +1,4 @@
-# E-Commerce Website Project: Totality Corps
+# E-Commerce Website Project
 
 # https://totalitycorp-frontend-challenge-kunal144.vercel.app/
 
